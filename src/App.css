@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul{
+  list-style-type: none;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  background: magenta;
+}
+
+.navigation{
+  width: inherit;
+  height: 100%;
+}
+
+
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
